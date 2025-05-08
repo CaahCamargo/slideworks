@@ -1,0 +1,18 @@
+:root {
+  --main-color: #726BEA;
+  --main-light-color: #FCFCFC;
+  --main-gray: #CCCCCC;
+  --main-dark-gray: #232323;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .8s ease;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}

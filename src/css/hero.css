@@ -94,6 +94,38 @@
   gap: 6px;
 }
 
+.efect-in-words {
+  width: 100%;
+}
+
+.efect-in-words-up {
+  transform: translateY(80px);
+  animation: loadIn 0.3s ease 0.3s forwards;
+}
+
+@keyframes loadIn {
+  0% {
+      transform: translateY(80px);
+  } 
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+.efect-in-words-up-slide{
+  transform: translateX(80px);
+  animation: slide-to-left .5s ease-in-out .5s forwards;
+}
+
+@keyframes slide-to-left {
+  0% {
+      transform: translateX(80px);
+  } 
+  100% {
+      transform: translateX(0px);
+  }
+}
+
 @media(max-width: 480px){
   .slide{
     padding: 0 25px;

@@ -57,8 +57,10 @@ const MovieList: React.FC = () => {
             style={{ backgroundImage: `url('${item.image_url}')` }}
           >
             <div className="titulo-slider">
-              <p>Destaque do mês</p>
-              <h2>{item.title}</h2>
+              <div className="efect-in-words">
+                <p className="efect-in-words-up-slide">Destaque do mês</p>
+                <h2 className="efect-in-words-up">{item.title}</h2>
+              </div>
               <div className="titulo-slider-flex">
                 <span className="tag-cards-movies rating-slider">
                   <i className="fa-solid fa-star"></i>
